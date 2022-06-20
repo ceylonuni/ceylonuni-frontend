@@ -1,0 +1,33 @@
+.field {
+    margin: 20px 0;
+}
+
+.cu-button,
+.cu-text {
+    font-family: inherit;
+}
+
+.cu-text::placeholder {
+    font-family: inherit;
+    color: teal;
+    opacity: 0.3;
+}
+
+.cu-text:-ms-input-placeholder {
+    font-family: inherit;
+    color: teal;
+    opacity: 0.3;
+}
+
+.cu-text::-ms-input-placeholder {
+    font-family: inherit;
+    color: teal;
+    opacity: 0.3;
+}
+
+.cu-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(174, 215, 210, 0.3);
+}
