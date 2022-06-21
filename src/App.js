@@ -4,6 +4,7 @@ import "primereact/resources/primereact.min.css"; //core css
 import "primeicons/primeicons.css"; //icons
 import Login from "./pages/auth/Login";
 import Signup from "./pages/auth/Signup";
+import Registration from "./pages/auth/Registration";
 import Home from "./pages/home/Home";
 import Message from "./pages/messages/Simple";
 import { Routes, Route } from "react-router-dom";
@@ -16,6 +17,7 @@ function App() {
         <Route path="/signup" element={<Signup />}/>
         <Route path="/msg" element={<Message />} />
         <Route path="/signin" element={<Login />} />
+        <Route path="/registration" element={<Registration />}/>
       </Routes>
     </div>
   );
